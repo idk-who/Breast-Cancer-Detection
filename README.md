@@ -17,7 +17,7 @@ Two popular scaling techniques, Standard Scaler and Min-Max Scaler, have been ap
 # Data
 The dataset used in this project contains various attributes extracted from breast cancer patients. The dataset includes features such as age, tumor size, tumor texture, and more. These features are used to predict the presence or absence of breast cancer.
 
-#Implementation
+# Implementation
 The project implementation involves the following steps:
 
 1. Data Preprocessing: The dataset is preprocessed to handle missing values, categorical variables (if any), and scaling the features using the selected scaling techniques (Standard Scaler and Min-Max Scaler).

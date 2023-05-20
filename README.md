@@ -20,13 +20,13 @@ The dataset used in this project contains various attributes extracted from brea
 # Implementation
 The project implementation involves the following steps:
 
-1. Data Preprocessing: The dataset is preprocessed to handle missing values, categorical variables (if any), and scaling the features using the selected scaling techniques (Standard Scaler and Min-Max Scaler).
+1. Data Preprocessing: The dataset is preprocessed to handle missing values, categorical variables and scaling the features using the selected scaling techniques (Standard Scaler and Min-Max Scaler).
 
-2. Model Training: The preprocessed data is split into training and testing sets. Each machine learning algorithm is trained on the training set using the scaled features. The model hyperparameters are optimized using suitable techniques such as cross-validation or grid search.
+2. Model Training: The preprocessed data is split into training and testing sets. Each machine learning algorithm is trained on the training set using the scaled features.
 
 3. Model Evaluation: After training, each model is evaluated on the testing set. The evaluation metrics used include accuracy, precision, recall, and F1-score. The performance of each algorithm is compared across the different scaling techniques.
 
-4. Results and Discussion: The obtained results are analyzed, and insights regarding the performance of each model and scaling technique are discussed. The potential areas for improvement are also highlighted.
+4. Results and Discussion: The obtained results are analyzed, and the performance of each model and scaling technique are discussed. The potential areas for improvement are also highlighted.
 
 # Results
 The accuracy results obtained for each combination of the machine learning algorithms and scaling techniques are as follows:

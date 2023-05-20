@@ -31,33 +31,24 @@ The project implementation involves the following steps:
 # Results
 The accuracy results obtained for each combination of the machine learning algorithms and scaling techniques are as follows:
 
-Logistic Regression with Standard Scaler: 0.956140350877193%
+* Logistic Regression with Standard Scaler: 0.956140350877193%
+* Logistic Regression with Min-Max Scaler: 0.9649122807017544%
+* Decision Tree with Standard Scaler: 0.9298245614035088%
+* Decision Tree with Min-Max Scaler: 0.9298245614035088%
+* Random Forest with Standard Scaler: 0.9736842105263158%
+* Random Forest with Min-Max Scaler: 0.9736842105263158%
+* Ridge Logistic Regression with Standard Scaler: 0.9473684210526315%
+* Ridge Logistic Regression with Min-Max Scaler: 0.956140350877193%
+* Support Vector Classifier with Standard Scaler: 0.9824561403508771%
+* Support Vector Classifier with Min-Max Scaler: 0.9736842105263158%
 
-Logistic Regression with Min-Max Scaler: 0.9649122807017544%
-
-Decision Tree with Standard Scaler: 0.9298245614035088%
-
-Decision Tree with Min-Max Scaler: 0.9298245614035088%
-
-Random Forest with Standard Scaler: 0.9736842105263158%
-
-Random Forest with Min-Max Scaler: 0.9736842105263158%
-
-Ridge Logistic Regression with Standard Scaler: 0.9473684210526315%
-
-Ridge Logistic Regression with Min-Max Scaler: 0.956140350877193%
-
-Support Vector Classifier with Standard Scaler: 0.9824561403508771%
-
-Support Vector Classifier with Min-Max Scaler: 0.9736842105263158%
-
-Conclusion
+# Conclusion
 In this project, we explored multiple machine learning algorithms for breast cancer detection. The performance of each algorithm was evaluated using 2 different scaling techniques. Based on the results, it can be concluded that Support Vector Classifier with Standard Scaler achieved the highest accuracy.
 
-Future Enhancements
+# Future Enhancements
 The project can be extended in the following ways:
 
-*Include additional machine learning algorithms for comparison.
-*Explore more advanced scaling techniques or feature engineering methods.
-*Conduct an in-depth analysis of feature importance and interpretability.
-*Evaluate the models on different types of the dataset (e.g. using image datasets).  
+* Include additional machine learning algorithms for comparison.
+* Explore more advanced scaling techniques or feature engineering methods.
+* Conduct an in-depth analysis of feature importance and interpretability.
+* Evaluate the models on different types of the dataset (e.g. using image datasets).  

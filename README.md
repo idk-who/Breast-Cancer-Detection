@@ -6,15 +6,11 @@ Breast cancer is a critical health concern for women worldwide. Early detection 
 
 The objective of this project is to compare the performance of multiple machine learning algorithms in identifying breast cancer. The algorithms utilized include:
 
-*Logistic Regression
-
-*Decision Tree
-
-*Random Forest
-
-*Ridge Logistic Regression (Ridge Classifier)
-
-*Support Vector Classifier
+* Logistic Regression
+* Decision Tree
+* Random Forest
+* Ridge Logistic Regression (Ridge Classifier)
+* Support Vector Classifier
 
 Two popular scaling techniques, Standard Scaler and Min-Max Scaler, have been applied to normalize the input features and enhance the performance of the models.
 

@@ -5,10 +5,15 @@ This project aims to detect breast cancer using various machine learning algorit
 Breast cancer is a critical health concern for women worldwide. Early detection plays a vital role in improving patient outcomes. Machine learning algorithms can assist in automating the process of breast cancer detection by analyzing relevant features from medical data.
 
 The objective of this project is to compare the performance of multiple machine learning algorithms in identifying breast cancer. The algorithms utilized include:
+
 *Logistic Regression
+
 *Decision Tree
+
 *Random Forest
+
 *Ridge Logistic Regression (Ridge Classifier)
+
 *Support Vector Classifier
 
 Two popular scaling techniques, Standard Scaler and Min-Max Scaler, have been applied to normalize the input features and enhance the performance of the models.
@@ -30,16 +35,25 @@ The project implementation involves the following steps:
 # Results
 The accuracy results obtained for each combination of the machine learning algorithms and scaling techniques are as follows:
 
-Logistic Regression with Standard Scaler: 0.956140350877193
-Logistic Regression with Min-Max Scaler: 0.9649122807017544
-Decision Tree with Standard Scaler: 0.9298245614035088
-Decision Tree with Min-Max Scaler: 0.9298245614035088
-Random Forest with Standard Scaler: 0.9736842105263158
-Random Forest with Min-Max Scaler: 0.9736842105263158
-Ridge Logistic Regression with Standard Scaler: 0.9473684210526315
-Ridge Logistic Regression with Min-Max Scaler: 0.956140350877193
-Support Vector Classifier with Standard Scaler: 0.9824561403508771
-Support Vector Classifier with Min-Max Scaler: 0.9736842105263158
+Logistic Regression with Standard Scaler: 0.956140350877193%
+
+Logistic Regression with Min-Max Scaler: 0.9649122807017544%
+
+Decision Tree with Standard Scaler: 0.9298245614035088%
+
+Decision Tree with Min-Max Scaler: 0.9298245614035088%
+
+Random Forest with Standard Scaler: 0.9736842105263158%
+
+Random Forest with Min-Max Scaler: 0.9736842105263158%
+
+Ridge Logistic Regression with Standard Scaler: 0.9473684210526315%
+
+Ridge Logistic Regression with Min-Max Scaler: 0.956140350877193%
+
+Support Vector Classifier with Standard Scaler: 0.9824561403508771%
+
+Support Vector Classifier with Min-Max Scaler: 0.9736842105263158%
 
 Conclusion
 In this project, we explored multiple machine learning algorithms for breast cancer detection. The performance of each algorithm was evaluated using 2 different scaling techniques. Based on the results, it can be concluded that Support Vector Classifier with Standard Scaler achieved the highest accuracy.
